@@ -1,0 +1,26 @@
+.button {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 15px 30px;
+  /* font-family: TT Norms; */
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  background-color: #7E0707;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: fit-content;
+  margin-top: 16px;
+}
+
+.button:hover {
+  background-color: #990909;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
