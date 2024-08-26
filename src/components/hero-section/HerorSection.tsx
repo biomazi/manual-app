@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import Image from "next/image";
 import Button from "../button/Button";
 import classes from './HeroSection.module.css'

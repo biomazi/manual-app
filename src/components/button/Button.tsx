@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import classes from './Button.module.css'
 
 type Props = {
@@ -8,7 +9,8 @@ type Props = {
 
 const Button = ({children, onClick}: Props) => {
   return (
-    <button className={classes.button} onClick={onClick}>{children}</button>
+    <Link className={classes.button} href="/?modal=true">{children}</Link>
+    // <button className={classes.button} onClick={onClick}>{children}</button>
   )
 }
 

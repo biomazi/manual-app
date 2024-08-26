@@ -1,13 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import localFont from 'next/font/local'
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 const ttnorms = localFont({
-  src: '../../public/tt-norms-pro/TTNormsProRegular.otf',
-  display: 'swap',
+  src: [
+    {
+      path: '../../public/tt-norms-pro/TTNormsProRegular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/tt-norms-pro/TTNormsProBold.otf',
+      weight: '700',
+      style: 'bold',
+    },
+  ],
+  display: 'swap'
 })
 
 export const metadata: Metadata = {

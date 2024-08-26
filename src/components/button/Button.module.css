@@ -24,3 +24,15 @@
 .button:active {
   transform: scale(0.98);
 }
+
+.backButton {
+  background-color: #686060
+}
+
+.backButton:hover {
+  background-color: #990909;
+}
+
+.backButton:active {
+  transform: scale(0.98);
+}
